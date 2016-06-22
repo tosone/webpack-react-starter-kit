@@ -1,0 +1,20 @@
+{
+  "name": "webpack-react-starter-kit",
+  "description": "Web app boilerplate using Babel, webpack, Semantic.",
+  "main": "index.js",
+  "authors": [
+    "Tosone"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tosone/webpack-react-starter-kit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#^2.1.8"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "webpack-react-starter-kit",
+  "version": "1.0.0",
+  "description": "Web app boilerplate using Babel, webpack, Semantic.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server ./entry.js --progress --colors  --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosone/webpack-react-starter-kit.git"
+  },
+  "author": "Tosone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tosone/webpack-react-starter-kit/issues"
+  },
+  "homepage": "https://github.com/tosone/webpack-react-starter-kit#readme",
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "react": "^15.1.0",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "base64-loader": "^1.0.0",
+    "css-loader": "^0.23.1",
+    "csso-loader": "^0.2.0",
+    "favicons-webpack-plugin": "0.0.6",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-minifier": "^2.1.5",
+    "html-webpack-plugin": "^2.21.0",
+    "img-loader": "^1.2.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "markdown-loader": "^0.1.7",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "svgo-loader": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
