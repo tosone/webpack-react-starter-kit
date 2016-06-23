@@ -4,7 +4,9 @@
   "description": "Web app boilerplate using Babel, webpack, Semantic.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server ./entry.js --progress --colors  --display-error-details"
+    "start": "webpack-dev-server ./entry.js --hot  --inline --progress --colors --watch --display-error-details",
+    "postinstall": "bower i",
+    "build": "webpack-dev-server -d --colors"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,14 @@
     "redux": "^3.5.2"
   },
   "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "babel-preset-stage-3": "^6.5.0",
     "base64-loader": "^1.0.0",
     "css-loader": "^0.23.1",
     "csso-loader": "^0.2.0",

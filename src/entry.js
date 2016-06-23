@@ -5,7 +5,7 @@ require('./test.less');
 var url = require('./test.png');
 console.log(url);
 const $ = require('jquery');
-require('semanticcs')
+require('semanticss')
 require('moment')
 require('lodash')
 require('react')
